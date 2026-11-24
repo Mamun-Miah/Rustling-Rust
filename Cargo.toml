@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 rand = "0.10.3"
+tokio = { version = "1.54.1", features = ["full"] }
+[[bin]]
+name = "tokio-lab"
+path = "src/tokio-lab.rs"
